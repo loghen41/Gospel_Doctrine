@@ -1,0 +1,29 @@
+.jumbotron {
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+}
+
+.col-lg-4 {
+    background-color: #ffffff;
+    border: solid 4px rgba(162, 214, 144, .4);
+}
+body {
+    background-color: rgba(144, 197, 214, .4);
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: black;
+    }
+}
+@media only screen and (min-width: 992px) {
+    body {
+        background-color: #808080;
+    }
+}
+a.normalText {
+    text-decoration: none;
+    color: black;
+}
+
