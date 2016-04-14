@@ -1,29 +1,29 @@
+
+a.normalText {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: rgba(80, 80, 80, .4);
+}
+
 .jumbotron {
     -webkit-border-radius:10px;
     -moz-border-radius:10px;
     border-radius:10px;
+    position: relative;
 }
 
-.col-lg-4 {
-    background-color: #ffffff;
-    border: solid 4px rgba(162, 214, 144, .4);
-}
-body {
-    background-color: rgba(144, 197, 214, .4);
+.media-object {
+    height: 100px;
+    width: 100px;
+
 }
 
-@media only screen and (min-width: 768px) {
-    body {
-        background-color: black;
-    }
-}
-@media only screen and (min-width: 992px) {
-    body {
-        background-color: #808080;
-    }
-}
-a.normalText {
-    text-decoration: none;
-    color: black;
+.return {
+    position: absolute;
+    bottom: 2%;
+    right: 1%;
 }
 
